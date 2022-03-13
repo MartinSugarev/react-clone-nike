@@ -1,0 +1,53 @@
+.shoes_container{
+    min-width: 330px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shoes_container_img{
+    width: 100%;
+    height: 80%;
+}
+.shoes_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.shoes_price_container{
+width: 100%;
+height: 20%;
+
+display: flex;
+
+}
+.shoes_left{
+   
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.shoes_right{
+
+    width: 50%;
+    height: 100%;
+}
+.shoes_type{
+    color: #757575;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.shoes_model{
+    font-weight: 600;
+}
+.shoes_price{
+    text-align: right;
+    margin-left: auto;
+    margin-top: 12px;
+    font-weight: 600;
+}

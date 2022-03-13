@@ -1,0 +1,45 @@
+.three_container{
+    width: 90vw;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.three_p{
+    height: 50px;
+    margin-right: auto;
+    line-height: 50px;
+    font-weight: 500;
+    font-size:  1.5rem;
+}
+
+
+.three_pics{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+.three_big_pic{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.three_big_pic > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.three_first_pic > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.three_second_pic > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

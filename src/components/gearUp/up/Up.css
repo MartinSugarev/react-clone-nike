@@ -1,0 +1,76 @@
+.up_container{
+    height: 15%;
+    display: flex;
+    line-height: 100%;
+}
+.up_arrows{
+    height: 100%;
+    width: 11%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up_container > h2{
+    font-weight: 500;
+    
+}
+.up_arrows > * {
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #F5F5F5;
+}
+.up_arrows > *:hover{
+    background-color: rgb(165, 164, 164);
+    cursor: pointer;
+}
+
+.forwardArrow{
+    background-color: #F5F5F5;
+}
+
+
+.forwardArrow.active{
+    background-color: rgb(165, 164, 164);
+}
+.backArrow{
+    background-color: #F5F5F5;
+}
+
+.backArrow.active{
+    background-color: rgb(165, 164, 164);
+}
+
+@media only screen and (max-width: 1000px) {
+    .up_arrows {
+      width: 12%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .up_arrows {
+      width: 14%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .up_arrows {
+      width: 15%;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .up_arrows {
+      width: 17%;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .up_arrows {
+      width: 20%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .up_arrows {
+      display: none;
+    }
+  }

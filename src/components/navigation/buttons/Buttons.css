@@ -1,0 +1,13 @@
+.navigation_buttons{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navigation_buttons > * {
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
